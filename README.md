@@ -1,7 +1,9 @@
 
 #  Java Inventory System
 <img src="documentation/java-logo.svg" width="150" height="150"/>
+
 ---
+
 ##  Tabla de contenidos
 
 
