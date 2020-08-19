@@ -35,10 +35,9 @@ services to any client.
 ---
  ## About
 
-  -  This project is being developed by [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/). This is a project developed in JAVA. The goal is the deployment of the application in a EC2 (AWS Instance) to serve any client all the operations available in a store inventory.
-
-
-
+  -  This is a JAVA project developed in JAVA developed by [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/). 
+     
+ 
  ---
 ## Arquitectura
 
