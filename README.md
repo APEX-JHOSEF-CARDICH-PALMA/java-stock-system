@@ -22,11 +22,11 @@
  
 ## Introducción
 
--  🇬🇧 ENG - The main goal of this project is to work with the best development practices. 
-The idea for the application is develop an Inventory Sales Stores Server, in which will be many basic inventory functionalities for a clothing store. 
-The focus will be on practices like: Good coding style, CI (Continuous Integration) planing and making improvements through automated testing. 
-Technologies like JUnit, Maven and others will be used in the development. It will be great to end this project, deploying it in a EC2 AWS instance to bring its 
-services to any client.
+-  🇬🇧 ENG - The main goal of this project is to work with the 
+best development practices. The idea for the application is to develop
+ an Inventory Sales Stores application, which will be many basic
+ inventory functionalities for a clothing store. The focus will be on practices like Good coding style,
+  CI (Continuous Integration) planing, and making improvements through automated testing. Technologies like JUnit, Maven, and others will be used in development. It will be great to end this project, deploying it in an EC2 AWS instance to bring its services to any client.
               
   - 🇪🇸 ESP - El objetivo principal de este proyecto es el uso de buenas prácticas de programación para el desarrollo de una aplicación usando JAVA, que servirá 
   para el inventario de una tienda  de ropa. Esta app contará con las funcionalidades básicas de un inventario para el negocio.
