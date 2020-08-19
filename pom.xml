@@ -7,6 +7,32 @@
     <groupId>com.jhosefcardichpalma.java</groupId>
     <artifactId>inventory-system</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>inventory-system</name>
+
+    <properties>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <junit.jupiter.version>5.4.2</junit.jupiter.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope> <!--indicates where this dependency's libraries will be added in the final distributable deployment-->
+            <!--so, the test scope is not gonna be included in the final package.-->
+        </dependency>
+        <!--The engine is gonna do all the tests, running the asserts or-->
+        <!--${junit.jupiter.version} coge el valor de las properties-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.jupiter.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
 
 
 </project>
