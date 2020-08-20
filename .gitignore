@@ -60,7 +60,6 @@ fabric.properties
 # modules.xml
 # .idea/misc.xml
 # *.ipr
-documentation/~$3 TFG Entrega Memoria Final.DOCX
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/maven
@@ -80,4 +79,3 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 # End of https://www.toptal.com/developers/gitignore/api/maven
-
