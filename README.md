@@ -37,7 +37,7 @@ best development practices. The idea for the application is to develop
 ---
  ## About
 
-  -  This is a JAVA project developed in JAVA developed by [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/). 
+  -  This is a JAVA project designed and developed by [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/). 
      
  
  ---
@@ -67,68 +67,6 @@ $ Maven installation ...
 
 - En el acrhivo 'pom.xml' agregar las siguientes configuraciones para JUnit:
 
-> Contenido de 'pom.xml'
-```
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.jhosefcardichpalma.java</groupId>
-    <artifactId>inventory-system</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>inventory-system</name>
-
-    <properties>
-        <maven.compiler.target>11</maven.compiler.target>
-        <maven.compiler.source>11</maven.compiler.source>
-        <junit.jupiter.version>5.4.2</junit.jupiter.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>
-
-    <dependencies>
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>${junit.jupiter.version}</version>
-            <scope>test</scope> <!--indicates where this dependency's libraries will be added in the final distributable deployment-->
-            <!--so, the test scope is not gonna be included in the final package.-->
-        </dependency>
-        <!--The engine is gonna do all the tests, running the asserts or-->
-        <!--${junit.jupiter.version} coge el valor de las properties-->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-engine</artifactId>
-            <version>${junit.jupiter.version}</version>
-            <scope>test</scope>
-        </dependency>
-
-    </dependencies>
-
-
-
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
-                <configuration>
-                    <includes>
-                        <include>**/MathUtilitiesTest.java</include>
-                    </includes>
-                    <excludes>
-
-                    </excludes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project> ```
 ---
  
 
