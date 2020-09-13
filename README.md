@@ -37,8 +37,17 @@ best development practices. The idea for the application is to develop
 ---
  ## About
 
-  -  This is a JAVA project designed and developed by [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/). 
-     
+This is a JAVA project designed and developed by [Jhosef A. Cardich Palma](https://www.linkedin.com/in/jhosef-anderson-cardich-palma-74765788/). 
+  
+ ### Continuous integration
+ - Jenkins 
+ - JUnit
+ - Maven
+ 
+ ### Deployment 
+ - AWS EC2 
+ - Docker
+ 
  
  ---
 ## Arquitectura
@@ -56,16 +65,26 @@ Let's take a look how this architecture looks like:
 
  - El proyecto se iniciara mediante [Maven](https://maven.apache.org/) para la organización de las dependencias y JUnit para testeo.
 
- #### Configuración Entorno
--  Se usa el entorno de desarrollo Intellij IDEA.
+ ### Configuración de las Dependencias
 
- - Configurar Maven con Intellij IDEA. 
+#### Configurar Maven con Intellij IDEA. 
 > Instalación Maven
 ```
 $ Maven installation ... 
  ```
 
 - En el acrhivo 'pom.xml' agregar las siguientes configuraciones para JUnit:
+
+#### Jenkins
+
+```
+$ brew services start jenkins // Inicia el servicio
+$ brew services stop jenkins // para el servicio
+$ brew services reload jenkins // Lee de nuevo la configuración y lanza el servicio
+
+```
+>  https://blog.jcyebes.com/instalacion-de-jenkins-en-mac/
+ - Maven Plugin for Jenkins
 
 ---
  

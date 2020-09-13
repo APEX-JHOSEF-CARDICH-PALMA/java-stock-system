@@ -1,4 +1,4 @@
-package com.jhosefcardichpalma.java;
+package com.stocksystem.java;
 
 public class Product {
     private int id;

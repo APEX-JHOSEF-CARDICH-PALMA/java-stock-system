@@ -1,4 +1,4 @@
-package com.jhosefcardichpalma.java;
+package com.stocksystem.java;
 
 import java.util.HashMap;
 
