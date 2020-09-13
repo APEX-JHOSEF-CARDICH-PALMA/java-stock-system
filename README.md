@@ -84,6 +84,7 @@ $ brew services reload jenkins // Lee de nuevo la configuración y lanza el serv
 
 ```
 >  https://blog.jcyebes.com/instalacion-de-jenkins-en-mac/
+ - Maven Plugin for Jenkins
 
 ---
  
